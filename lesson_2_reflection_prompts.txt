@@ -7,11 +7,13 @@ How is the staging area different from the working directory and the repository?
 	Staging area gives the controll to make commit smaller. Just make one logical change in the code, add the changed files to the staging area and finally if the changes are bad then checkout to the previous commit or otherwise commit the changes.It gives the flexibility to split the task into smaller tasks and commit smaller changes. With staging area it is easier to focus in small tasks.
 	It also gives you the offer to take break. Suppose you need to change three files to make one logical change and you have changed the first file and need a long break until you start making the other changes. At this moment you cannot commit and you want to track which files you are done with so that after comming back you do not need to try to remember how much work have been done. So add them to the staging area and it will save your work. When you come back just do "git status" and check which files you are done with and start making other changes.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logicalchange?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+	I can use this as an intermediate stage to store the files that have been changed to make one logical change. When all the changes are made I can commit the changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	If I want to introduce any experimental change without breaking anything in the working version of the code branching is the best solution.
 
 How do the diagrams help you visualize the branch structure?
 
