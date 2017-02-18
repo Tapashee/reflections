@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    I can see what is added and what is deleted. From this I am able to decide what I have done wrong in the process of updating my code.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    By saving previous versions I am able to compare my present file with any of the previous files. So if I at any point I want to restore any functionality from a previous version I can do it in a very little amount of time. 
+    Other than that I can check what I have changed so far in the code so that I can write more effecient code in the updated version.
+    Another point is that if I build a software and save previous versions of the code I can just add more functionality in the updated version of the software. No need to write an entire new code for the software in the updating proces.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    Pros: - Can chose when to commit.
+    	  - Repository is not overwhelmed with commits
+    Cons: Forgetting to commit will result in a big commit which sometimes may not of any use.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because they assume that the files may be interconnected. If the files are not interconnected there would be no problem but if they are interconnected then they should be saved in one commit to indicated interconnected changes.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log: To get all the commits
+    git diff: to compare files in two commits
+
+How might using version control make you more confident to make changes that could break something?
+
+    Because if I commit the previous version then I can restore the previous version at any time I want. So making a change that might break anything is not a matter.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to create my own repository and create my own commit history
