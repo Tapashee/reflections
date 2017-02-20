@@ -1,3 +1,7 @@
 When would you want to create a remote repository rather than keeping all your work local?
   
-  When another person working with me wants to make changes in the repository from the other computer then a common remote       repository is needed.
+	When another person working with me wants to make changes in the repository from the other computer then a common remote repository is needed.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	
+	If you are currently working on some feature and another person is pushes a change, it may 1. break your feature, 2. break some other part of the project that may cause build fail. If git automatically stays up-to-date with your remote repository in such cases then your whole project will behave unexpectedly. So manually pulling from remote gives you the offer to take time and complete your work and then pull from remote. If you see any unexpected result, then you have time to deal with the files. If git would automatically sinc with the remote in the middle of your work and break any part of the project then it would be much annoying. You would have to deal with the broken parts as well as your own task such as adding new feature. 
