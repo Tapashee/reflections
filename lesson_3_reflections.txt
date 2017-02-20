@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keeping all your work local?
+  
+  When another person working with me wants to make changes in the repository from the other computer then a common remote       repository is needed.
